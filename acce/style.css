@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: rgb(219, 235, 235);
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #877ce6;
+    border-radius: 8px;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+
+  
+    
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .success-container {
+    background-color: #4CAF50; 
+    color: white;
+  }
+  
+
+.drop-zone {
+  border: 2px dashed #877ce6;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.drag-over {
+  background-color: #f0f0f0;
+}
